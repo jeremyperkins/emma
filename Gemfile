@@ -77,4 +77,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+
+# adding this so the sign out button will work
+  gem 'jquery-rails'
+
 end
