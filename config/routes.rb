@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :readers
   get 'home/index'
   devise_for :views
   get 'readers/new'
